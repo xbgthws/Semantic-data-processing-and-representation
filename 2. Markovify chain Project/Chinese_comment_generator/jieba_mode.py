@@ -1,0 +1,12 @@
+import jieba
+# Default Mode (精确模式)
+seg_list = jieba.cut("我来到北京清华大学", cut_all=False)
+print("Default Mode (精确模式): " + "/ ".join(seg_list))
+# Full Mode (全模式)
+seg_list = jieba.cut("我来到北京清华大学", cut_all=True)
+print("Full Mode (全模式): " + "/ ".join(seg_list))
+# HMM Mode (HMM 模式)
+seg_list = jieba.cut("他来到了网易杭研大厦", HMM=True)
+print("HMM Mode (HMM 模式): " + "/ ".join(seg_list))
+seg_list = jieba.cut("我来到北京清华大学", HMM=True)
+print("HMM Mode (HMM 模式): " + "/ ".join(seg_list))
