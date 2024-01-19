@@ -4,7 +4,18 @@ The course group members are:
 - Bangguo Xu 5123723
 - Simei Yan 5123720
 - Liang Liu 5123719
-- Zitai Wu 
+- Zitai Wu 5123721
+
+### Percentage contributions of every team memeber on every task:
+
+|        | Bangguo Xu | Simei Yan | Liang Liu | Zitai Wu |
+|--------|--------|---------|---------|--------|
+| Task 1 | 30%    | 20%     | 20%     | 30%    |
+| Task 2 | 30%    | 30%     | 30%     | 10%    |
+| Task 3 | 25%    | 25%     | 25%     | 25%    |
+| Task 4 | 30%    | 30%     | 30%     | 10%    |
+
+
 
 ## Final Project introduction
 This project is a Transformer generative single-round dialog model built on a 50w Chinese xiaohuangji dialog corpus.The model was trained on a Tesla V100-32GB for 5 epochs in about 4 hours. This project is inspired by another [single-round dialog model](https://github.com/Schellings/Seq2SeqModel) built using the seq2seq model.
