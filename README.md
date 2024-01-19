@@ -38,7 +38,7 @@ python train.py
 
 Tip: The parameter settings in `config.py` can be adjusted a bit before model training.The trained models are saved in the `saved_models` directory.
 
-#### 3. Experience Interactive Chat (currently Chinese only)
+#### 3. Experience interactive chat (currently Chinese only)
 ```shell
 python chat.py
 ```
