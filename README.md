@@ -2,9 +2,9 @@
 This repository holds all course project files for the THWS winter semester 2023/2024 course "Semantic data and Representation".
 The course group members are:
 - Bangguo Xu 5123723
-- Simei Yan
-- Liang Liu
-- Zitai Wu
+- Simei Yan 5123720
+- Liang Liu 5123719
+- Zitai Wu 
 
 ## Final Project introduction
 This project is a Transformer generative single-round dialog model built on a 50w Chinese xiaohuangji dialog corpus.The model was trained on a Tesla V100-32GB for 5 epochs in about 4 hours. This project is inspired by another [single-round dialog model](https://github.com/Schellings/Seq2SeqModel) built using the seq2seq model.
